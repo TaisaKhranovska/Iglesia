@@ -1,0 +1,40 @@
+@import "mixins";
+@import "variables";
+
+footer{
+  margin-top: 20px;
+  font-size: 11px;
+  color: $grey;
+
+  .footer-col {
+    margin-bottom: 20px;
+  }
+
+  .footer-title {
+    font-size: 18px;
+    color: $main-dark;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .footer-info-link,
+  .footer-contact-link
+  {
+    color: $grey;
+  }
+
+  .footer-contact-tel {
+    font-size: 18px;
+  }
+
+  .twitter-icon {
+    color: $main-blue;
+  }
+
+  .bottom-footer {
+    color: $light-grey;
+  }
+}

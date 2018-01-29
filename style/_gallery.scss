@@ -1,0 +1,48 @@
+@import "mixins";
+@import "variables";
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0;
+
+  .img-block {
+    height: 200px;
+    min-width: 150px;
+
+    @media (min-width: $min-md) {
+      width: 25%;
+    }
+
+    @media (min-width: $min-sm) and (max-width: $max-sm) {
+      width: 50%;
+    }
+
+    @media (max-width: $max-xs) {
+      height: 100px;
+      width: 100%;
+    }
+  }
+
+  .gallery-btn {
+    position: absolute;
+    background-color: $primery-color;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    right: calc(50% - 35px);
+    top: calc(50% - 35px);
+    color: $main-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: $max-xs) {
+      bottom: 0;
+    }
+  }
+}

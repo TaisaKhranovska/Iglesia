@@ -1,0 +1,753 @@
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.header {
+  background: #ffffff;
+  height: 55px; }
+  .header .navbar {
+    width: 100%;
+    padding: 0;
+    background: #000000; }
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px; }
+
+.fixed-top {
+  background: #ffffff; }
+  .fixed-top:after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-image: url(../img/black-shadow.png);
+    background-repeat: repeat; }
+
+@media (max-width: 400px) {
+  .menu-and-search {
+    display: flex;
+    align-items: center; } }
+
+.menu-btn {
+  font-size: 20px;
+  position: absolute;
+  top: -40px; }
+  .menu-btn:focus {
+    outline: none; }
+  .menu-btn:active {
+    color: #7f4258; }
+  .menu-btn:hover {
+    cursor: pointer; }
+
+.search-block {
+  display: inline-block;
+  position: relative;
+  margin-left: 40px; }
+  .search-block .form-group {
+    margin-bottom: 0; }
+  .search-block .search-btn {
+    color: #d4dad9;
+    font-size: 14px;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    outline: none; }
+  .search-block input {
+    border: 1px solid transparent;
+    padding: 5px 10px 5px 25px;
+    color: #7f4258;
+    font-family: 'DroidSerifRegular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px; }
+    .search-block input:focus, .search-block input:hover {
+      border: 1px solid #7f4258;
+      transition: all .2s ease-in-out;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px; }
+      .search-block input:focus .search-btn, .search-block input:hover .search-btn {
+        color: #7f4258; }
+  .search-block ::-webkit-input-placeholder {
+    /* Chrome */
+    color: #d4dad9;
+    font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 13px; }
+  .search-block :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #d4dad9;
+    font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 13px; }
+  .search-block ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #d4dad9;
+    font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 13px;
+    opacity: 1; }
+  .search-block :-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: #d4dad9;
+    font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 13px;
+    opacity: 1; }
+
+.logo {
+  text-align: center; }
+  @media (max-width: 400px) {
+    .logo {
+      margin-left: 20px; } }
+
+.navbar-brand {
+  font-family: 'PlayfairDisplayBlack', 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: 25px;
+  color: #000000;
+  margin: 0; }
+  .navbar-brand:hover {
+    color: #7f4258; }
+
+.social-block {
+  display: inline-block;
+  text-align: right; }
+  @media (max-width: 767px) {
+    .social-block {
+      display: none; } }
+  .social-block .social-item {
+    display: inline-block;
+    color: #d4dad9;
+    font-size: 18px;
+    margin: 0 18px; }
+    .social-block .social-item:hover {
+      color: #7f4258; }
+    .social-block .social-item:first-of-type {
+      margin-left: 0; }
+    .social-block .social-item:last-of-type {
+      margin-right: 0; }
+
+nav .navbar-nav {
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  height: 40px;
+  background: #000000; }
+  @media (max-width: 576px) {
+    nav .navbar-nav {
+      flex-direction: column;
+      height: auto;
+      align-items: left; } }
+  nav .navbar-nav .nav-item {
+    display: flex;
+    align-items: center; }
+    nav .navbar-nav .nav-item .nav-link {
+      color: #ffffff;
+      font-size: 14px; }
+      nav .navbar-nav .nav-item .nav-link:hover {
+        color: #ffefa7; }
+    nav .navbar-nav .nav-item .dropdown-menu {
+      position: absolute;
+      font-size: 14px;
+      margin: 0;
+      padding: 5px 20px;
+      left: 24px; }
+      nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        padding: 5px 0; }
+        nav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+          color: #7f4258;
+          text-decoration: underline; }
+      nav .navbar-nav .nav-item .dropdown-menu .svg-inline--fa {
+        height: 10px;
+        color: #d4dad9; }
+      nav .navbar-nav .nav-item .dropdown-menu .dropdown-divider {
+        margin: 0; }
+    nav .navbar-nav .nav-item:before {
+      content: "";
+      display: inline-block;
+      height: 5px;
+      width: 5px;
+      border-radius: 50%;
+      background: #d4dad9;
+      margin: 0 25px; }
+  @media (min-width: 576px) {
+    nav .navbar-nav .nav-item:first-child:before {
+      content: "";
+      display: none; } }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.carousel .carousel-item {
+  height: 400px; }
+  .carousel .carousel-item .slide-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 0 5%;
+    color: #ffffff;
+    font-family: 'PlayfairDisplayRegular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 14px; }
+    .carousel .carousel-item .slide-text h2 {
+      font-size: 28px; }
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  background: rgba(0, 0, 0, 0.5); }
+  .carousel .carousel-control-prev .carousel-control-icon,
+  .carousel .carousel-control-next .carousel-control-icon {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px; }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.sermon {
+  text-align: center; }
+  .sermon .sermon-cards:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #d4dad9;
+    margin: 10px 0 20px; }
+  .sermon .sermon-cards .card {
+    margin: 10px 0;
+    border: 1px solid transparent;
+    color: #000000; }
+    .sermon .sermon-cards .card:hover {
+      color: #7f4258;
+      text-decoration: none;
+      border: 1px solid #7f4258;
+      padding: 0; }
+    .sermon .sermon-cards .card .img-block {
+      height: 150px; }
+    .sermon .sermon-cards .card .card-block {
+      padding: 10px; }
+    .sermon .sermon-cards .card .card-title {
+      font-family: 'DroidSerifRegular', 'Times New Roman', Times, serif;
+      font-size: 14px;
+      line-height: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .sermon .sermon-cards .card .card-subtitle {
+      font-size: 10px; }
+  .sermon .sermon-info {
+    margin-bottom: 20px; }
+  .sermon .sermon-timer {
+    border: 5px solid #d4dad9;
+    color: #a3a3a3;
+    position: relative;
+    padding: 20px 0;
+    font-family: 'PlayfairDisplayRegular', 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 18px; }
+    .sermon .sermon-timer:hover:after, .sermon .sermon-timer:hover:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url("../img/light-shadow.png") repeat; }
+    .sermon .sermon-timer:hover:after {
+      content: "";
+      bottom: -15px;
+      right: -5px;
+      width: 100%;
+      height: 10px; }
+    .sermon .sermon-timer:hover:before {
+      content: "";
+      top: 5px;
+      right: -15px;
+      width: 10px;
+      height: calc(100% + 10px); }
+    @media (max-width: 576px) {
+      .sermon .sermon-timer {
+        padding: 20px 0;
+        margin: 0; } }
+    .sermon .sermon-timer .card-subtitle {
+      font-size: 10px; }
+    .sermon .sermon-timer .sermon-title {
+      font-size: 34px;
+      color: #000000; }
+  .sermon #timer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 1.5;
+    color: #d4dad9;
+    text-align: center;
+    padding: 20px 0; }
+    @media (max-width: 768px) {
+      .sermon #timer {
+        font-size: 24px; } }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.blog {
+  background: url("../img/blog-bg.png"); }
+  .blog .card-group .card {
+    border-radius: 3px; }
+  .blog .card {
+    color: #a3a3a3;
+    margin-bottom: 20px; }
+    .blog .card:hover {
+      text-decoration: none; }
+      .blog .card:hover:after, .blog .card:hover:before {
+        content: "";
+        display: block;
+        position: absolute;
+        background: url("../img/black-shadow.png") repeat; }
+      .blog .card:hover:after {
+        content: "";
+        bottom: -12px;
+        right: -3px;
+        width: 100%;
+        height: 10px; }
+      .blog .card:hover:before {
+        content: "";
+        top: 2px;
+        right: -12px;
+        width: 10px;
+        height: calc(100% + 10px); }
+    .blog .card .blog-category {
+      text-transform: uppercase;
+      font: 10px Arial; }
+    .blog .card .card-block {
+      padding: 20px;
+      height: 200px;
+      overflow: hidden; }
+      @media (max-width: 575px) {
+        .blog .card .card-block {
+          height: auto; } }
+    .blog .card .card-title {
+      font-family: 'RalewayExtraBold', Arial sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      color: #000000;
+      height: 48px;
+      overflow: hidden;
+      display: flex;
+      align-items: center; }
+    .blog .card .card-text {
+      font-family: 'RalewayRegular', Arial sans-serif;
+      font-size: 11px;
+      line-height: 14px; }
+  .blog .card-footer {
+    font: 10px Arial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: transparent;
+    border-top: none; }
+    .blog .card-footer .comments {
+      display: inline-block;
+      margin-right: 10px; }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.events .block-title {
+  font-size: 24px;
+  text-transform: inherit;
+  text-align: left; }
+.events .events-list {
+  list-style: none;
+  list-style-position: inside; }
+  .events .events-list .events-list-item:last-of-type {
+    margin-left: 20px; }
+    .events .events-list .events-list-item:last-of-type:before {
+      display: none; }
+  .events .events-list .dropdown-divider {
+    width: calc(100% - 20px);
+    margin-left: 20px; }
+.events .events-list-item {
+  display: flex;
+  align-items: center; }
+  .events .events-list-item:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffefa7;
+    margin-right: 15px; }
+.events .events-list-link {
+  color: #a3a3a3;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+  .events .events-list-link:hover {
+    color: #7f4258;
+    text-decoration: none; }
+  .events .events-list-link .fa-chevron-right {
+    font-size: 8px; }
+.events .author {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .events .author .img-block {
+    width: 55px;
+    height: 55px;
+    margin-right: 20px; }
+    .events .author .img-block .fit-img {
+      border-radius: 5px; }
+  .events .author .name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .events .author .profession {
+    font-size: 12px;
+    color: #a3a3a3; }
+.events .comment {
+  font-size: 12px;
+  line-height: 20px;
+  color: #a3a3a3;
+  padding-top: 20px; }
+  .events .comment .read-more-state {
+    display: none; }
+  .events .comment .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .9s ease; }
+  .events .comment .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 500em; }
+  .events .comment .read-more-state ~ .read-more-trigger:before {
+    content: 'Read more >'; }
+  .events .comment .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less'; }
+  .events .comment .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px; }
+    .events .comment .read-more-trigger:hover {
+      color: #7f4258; }
+.events .citation-block {
+  color: #a3a3a3;
+  text-align: center; }
+.events .main-comment-icon {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .events .main-comment-icon:before, .events .main-comment-icon:after {
+    content: "";
+    display: inline-block;
+    width: 49%;
+    height: 25px;
+    border-top: 1px solid #a3a3a3; }
+  .events .main-comment-icon:before {
+    border-top-right-radius: 25px; }
+  .events .main-comment-icon:after {
+    border-top-left-radius: 25px; }
+.events .citation {
+  font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px; }
+.events .citation-author {
+  font-size: 10px;
+  margin-top: 20px; }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0; }
+  .gallery .img-block {
+    height: 200px;
+    min-width: 150px; }
+    @media (min-width: 768px) {
+      .gallery .img-block {
+        width: 25%; } }
+    @media (min-width: 576px) and (max-width: 767px) {
+      .gallery .img-block {
+        width: 50%; } }
+    @media (max-width: 575px) {
+      .gallery .img-block {
+        height: 100px;
+        width: 100%; } }
+  .gallery .gallery-btn {
+    position: absolute;
+    background-color: #7f4258;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    right: calc(50% - 35px);
+    top: calc(50% - 35px);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    @media (max-width: 575px) {
+      .gallery .gallery-btn {
+        bottom: 0; } }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot");
+  src: url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2") format("woff2"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff") format("woff"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf") format("truetype"), url("../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot");
+  src: url("../fonts/Droid_Serif/Regular/DroidSerifRegular.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2") format("woff2"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.woff") format("woff"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf") format("truetype"), url("../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular") format("svg"); }
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot");
+  src: url("../fonts/Droid_Serif/Italic/DroidSerifItalic.eot") format("embedded-opentype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2") format("woff2"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.woff") format("woff"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf") format("truetype"), url("../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic") format("svg"); }
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot");
+  src: url("../fonts/Raleway/ExstraBold/RalewayExtraBold.eot") format("embedded-opentype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2") format("woff2"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.woff") format("woff"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf") format("truetype"), url("../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold") format("svg"); }
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot");
+  src: url("../fonts/Raleway/Regular/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"), url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"), url("../fonts/Raleway/Regular/RalewayRegular.ttf") format("truetype"), url("../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular") format("svg"); }
+footer {
+  margin-top: 20px;
+  font-size: 11px;
+  color: #a3a3a3; }
+  footer .footer-col {
+    margin-bottom: 20px; }
+  footer .footer-title {
+    font-size: 18px;
+    color: #000000; }
+  footer ul {
+    list-style: none;
+    margin-bottom: 0; }
+  footer .footer-info-link,
+  footer .footer-contact-link {
+    color: #a3a3a3; }
+  footer .footer-contact-tel {
+    font-size: 18px; }
+  footer .twitter-icon {
+    color: #5ad2ff; }
+  footer .bottom-footer {
+    color: #d4dad9; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px #7f4258; }
+
+.btn,
+a {
+  transition: all 0.5s ease-out 0.1s; }
+
+p {
+  margin-bottom: 0; }
+
+button:focus {
+  outline: 1px auto #7f4258; }
+
+.btn-without-border {
+  border: none;
+  background: none; }
+
+.light-btn {
+  background: #ffefa7;
+  color: #7f4258; }
+
+.fit-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.block-title {
+  font-family: 'PlayfairDisplayRegular', 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: #7f4258;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0 0; }
+
+.block-title-light {
+  color: #ffefa7; }
+
+.subtitle {
+  font-family: 'DroidSerifRegular', 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a3a3a3;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.subtitle-dark {
+  color: #b18b99; }
+
+main {
+  background-color: #ffffff; }
+  main .container {
+    margin: 20px auto; }
+
+/*# sourceMappingURL=style.css.map */

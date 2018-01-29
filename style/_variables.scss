@@ -1,0 +1,20 @@
+$min-xs: 400px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+
+$max-xs: $min-sm - 1;
+$max-sm: $min-md - 1;
+$max-md: $min-lg - 1;
+
+
+$primery-color: #7f4258;
+$light-primery-color: #b18b99;
+$main-light: #ffffff;
+$opacity-light: rgba(255, 255, 255, 0.5);
+$light: #ffefa7;
+$main-dark: #000000;
+$opacity-dark: rgba(0, 0, 0, 0.5);
+$light-grey: #d4dad9;
+$grey: #a3a3a3;
+$main-blue: #5ad2ff;

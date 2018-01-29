@@ -1,0 +1,107 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot');
+  src: url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.eot') format('embedded-opentype'),
+  url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff2') format('woff2'),
+  url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.woff') format('woff'),
+  url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.ttf') format('truetype'),
+  url('../fonts/Playfair_Display/Regular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot');
+  src: url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.eot') format('embedded-opentype'),
+  url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff2') format('woff2'),
+  url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.woff') format('woff'),
+  url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.ttf') format('truetype'),
+  url('../fonts/Playfair_Display/Black/PlayfairDisplayBlack.svg#PlayfairDisplayBlack') format('svg');
+}
+
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url('../fonts/Droid_Serif/Regular/DroidSerifRegular.eot');
+  src: url('../fonts/Droid_Serif/Regular/DroidSerifRegular.eot') format('embedded-opentype'),
+  url('../fonts/Droid_Serif/Regular/DroidSerifRegular.woff2') format('woff2'),
+  url('../fonts/Droid_Serif/Regular/DroidSerifRegular.woff') format('woff'),
+  url('../fonts/Droid_Serif/Regular/DroidSerifRegular.ttf') format('truetype'),
+  url('../fonts/Droid_Serif/Regular/DroidSerifRegular.svg#DroidSerifRegular') format('svg');
+}
+
+
+@font-face {
+  font-family: 'DroidSerifItalic';
+  src: url('../fonts/Droid_Serif/Italic/DroidSerifItalic.eot');
+  src: url('../fonts/Droid_Serif/Italic/DroidSerifItalic.eot') format('embedded-opentype'),
+  url('../fonts/Droid_Serif/Italic/DroidSerifItalic.woff2') format('woff2'),
+  url('../fonts/Droid_Serif/Italic/DroidSerifItalic.woff') format('woff'),
+  url('../fonts/Droid_Serif/Italic/DroidSerifItalic.ttf') format('truetype'),
+  url('../fonts/Droid_Serif/Italic/DroidSerifItalic.svg#DroidSerifItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url('../fonts/Raleway/ExstraBold/RalewayExtraBold.eot');
+  src: url('../fonts/Raleway/ExstraBold/RalewayExtraBold.eot') format('embedded-opentype'),
+  url('../fonts/Raleway/ExstraBold/RalewayExtraBold.woff2') format('woff2'),
+  url('../fonts/Raleway/ExstraBold/RalewayExtraBold.woff') format('woff'),
+  url('../fonts/Raleway/ExstraBold/RalewayExtraBold.ttf') format('truetype'),
+  url('../fonts/Raleway/ExstraBold/RalewayExtraBold.svg#RalewayExtraBold') format('svg');
+}
+
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url('../fonts/Raleway/Regular/RalewayRegular.eot');
+  src: url('../fonts/Raleway/Regular/RalewayRegular.eot') format('embedded-opentype'),
+  url('../fonts/Raleway/Regular/RalewayRegular.woff2') format('woff2'),
+  url('../fonts/Raleway/Regular/RalewayRegular.woff') format('woff'),
+  url('../fonts/Raleway/Regular/RalewayRegular.ttf') format('truetype'),
+  url('../fonts/Raleway/Regular/RalewayRegular.svg#RalewayRegular') format('svg');
+}
+
+
+@mixin font-PlayfairDisplayRegular($size: 14px, $lh: 14px){
+  font-family: 'PlayfairDisplayRegular', 'Times New Roman', Times, serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-PlayfairDisplayBlack($size: 14px, $lh: 14px){
+  font-family: 'PlayfairDisplayBlack', 'Times New Roman', Times, serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-DroidSerifItalic($size: 14px, $lh: 14px){
+  font-family: 'DroidSerifItalic', 'Times New Roman', Times, serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-DroidSerifRegular($size: 14px, $lh: 14px){
+  font-family: 'DroidSerifRegular', 'Times New Roman', Times, serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-RalewayExtraBold($size: 14px, $lh: 14px){
+  font-family: 'RalewayExtraBold', Arial sans-serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+@mixin font-RalewayRegular($size: 14px, $lh: 14px){
+  font-family: 'RalewayRegular', Arial sans-serif;
+  @if $size { font-size: $size; }
+  @if $lh { line-height: $lh; }
+}
+
+
+
+

@@ -1,0 +1,77 @@
+@import "mixins";
+@import "variables";
+@import "header";
+@import "carousel";
+@import "sermon";
+@import "blog";
+@import "events";
+@import "gallery";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px $primery-color;
+}
+
+.btn,
+a {
+  transition: all 0.5s ease-out 0.1s;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+button:focus {
+  outline: 1px auto $primery-color;
+}
+
+.btn-without-border {
+  border: none;
+  background: none;
+}
+
+.light-btn {
+  background: $light;
+  color: $primery-color;
+}
+
+.fit-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.block-title {
+  @include font-PlayfairDisplayRegular(40px, 40px);
+  color: $primery-color;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.block-title-light {
+  color: $light;
+}
+
+.subtitle {
+  @include font-DroidSerifRegular(12px, 12px);
+  color: $grey;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle-dark {
+  color: $light-primery-color;
+}
+
+main {
+  background-color: $main-light;
+
+  .container {
+    margin: 20px auto;
+  }
+}
